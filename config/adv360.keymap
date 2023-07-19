@@ -140,11 +140,11 @@
 
         layer_Symbols {
             bindings = <
- &trans          &trans           &trans           &trans         &trans           &trans                          &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp LEFT_BRACE    &kp AMPERSAND  &kp KP_MULTIPLY  &kp LC(LS(4))  &kp RIGHT_BRACE                          &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans       &kp COLON       &kp DOLLAR      &kp PERCENT      &kp CARET         &kp PLUS                          &trans                 &trans          &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans       &kp TILDE  &kp EXCLAMATION    &kp AMPERSAND      &kp POUND         &kp PIPE                                                                 &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans           &trans           &trans         &trans                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans          &trans           &trans           &trans        &trans           &trans                          &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LEFT_BRACE    &kp AMPERSAND  &kp KP_MULTIPLY  &macro_pound  &kp RIGHT_BRACE                          &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &kp COLON       &kp DOLLAR      &kp PERCENT     &kp CARET         &kp PLUS                          &trans                 &trans          &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &kp TILDE  &kp EXCLAMATION    &kp AMPERSAND     &kp POUND         &kp PIPE                                                                 &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans          &trans           &trans           &trans        &trans                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
