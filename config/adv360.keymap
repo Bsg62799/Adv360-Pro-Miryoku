@@ -117,5 +117,25 @@
             >;
         };
 
+        layer_Media_Layer {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Num_Layer {
+            bindings = <
+ &trans          &trans        &trans        &trans        &trans           &trans            &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LEFT_BRACE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACE            &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &kp SEMICOLON  &kp NUMBER_4        &kp N5        &kp N6        &kp EQUAL            &trans     &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &kp GRAVE        &kp N1        &kp N2        &kp N3    &kp BACKSLASH                                &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans          &trans        &trans        &trans        &trans                             &kp N0  &kp MINUS  &kp DOT                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
