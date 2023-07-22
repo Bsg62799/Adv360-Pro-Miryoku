@@ -14,7 +14,8 @@
     "Media Layer",
     "Num Layer",
     "Symbols",
-    "Funtions"
+    "Funtions",
+    "Windows"
   ],
   "layers": [
     [
@@ -89,6 +90,12 @@
        "&trans", "&kp F11", "&kp F4", "&kp F5", "&kp F6",  "&kp SCROLLLOCK",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&kp F10", "&kp F1", "&kp F2", "&kp F3", "&kp PAUSE_BREAK",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",  "&trans", "&trans", "&trans", "&trans",                              "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&kp LWIN(LEFT_ARROW)", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                         "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
