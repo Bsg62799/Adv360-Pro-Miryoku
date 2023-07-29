@@ -2,7 +2,7 @@ macro_pound: macro_pound{
 compatible = "zmk,behavior-macro";
 label = "macro_pound";
 #binding-cells = <0>;
-bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_6>, <&kp KP_NUMBER_3>, <&kp LALT>;
+bindings = <&kp LS(LC(4))>;
 };
 macro_powerrun: macro_powerrun{
 compatible = "zmk,behavior-macro";
