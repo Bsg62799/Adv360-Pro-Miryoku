@@ -15,7 +15,7 @@
     "Num Layer",
     "Symbols",
     "Funtions",
-    "Windows"
+    "macros"
   ],
   "layers": [
     [
@@ -91,11 +91,11 @@
        "&trans", "&kp F10", "&kp F1", "&kp F2", "&kp F3", "&kp PAUSE_BREAK",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",  "&trans", "&trans", "&trans", "&trans",                              "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",             "&trans",             "&trans",           "&trans",              "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",             "&trans",             "&trans",           "&trans",              "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&kp LG(LEFT_ARROW)", "&kp LG(DOWN_ARROW)", "&kp LG(UP_ARROW)", "&kp LG(RIGHT_ARROW)", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",             "&trans",             "&trans",           "&trans",              "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                       "&trans",             "&trans",           "&trans",              "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",         "&trans",          "&trans", "&trans",          "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",         "&trans",          "&trans", "&trans",          "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&macro_listary", "&macro_powerrun",  "&none", "&kp PRINTSCREEN", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",         "&trans",          "&trans", "&trans",          "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                   "&trans",          "&trans", "&trans",          "&trans", "&trans"
     ]
   ]
 }
