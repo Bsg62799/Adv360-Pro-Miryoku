@@ -160,11 +160,11 @@
 
         layer_macros {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans           &trans  &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans           &trans  &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_powerrun   &none  &kp PRINTSCREEN  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans           &trans  &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans           &trans  &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
             >;
         };
 
