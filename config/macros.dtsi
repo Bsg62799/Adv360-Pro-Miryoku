@@ -2,7 +2,7 @@ macro_copyq: macro_copyq{
 compatible = "zmk,behavior-macro";
 label = "macro_copyq";
 #binding-cells = <0>;
-bindings = <&kp LC(GRAVE)>;
+bindings = <&kp LC(LS(LA(Q)))>;
 };
 macro_pound: macro_pound{
 compatible = "zmk,behavior-macro";
