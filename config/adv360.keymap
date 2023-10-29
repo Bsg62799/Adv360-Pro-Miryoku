@@ -90,7 +90,7 @@
 
         layer_Nav_Layer {
             bindings = <
- &trans         &trans          &trans          &trans           &trans      &trans               &trans                                                   &trans        &trans          &trans          &trans        &trans           &trans  &trans
+ &trans    &macro_kvm1     &macro_kvm2     &macro_kvm3      &macro_kvm4      &trans               &trans                                                   &trans        &trans          &trans          &trans        &trans           &trans  &trans
  &trans      &kp PG_UP        &kp HOME    &kp UP_ARROW          &kp END  &kp INSERT               &trans                                                   &trans     &kp LC(Y)       &kp LC(V)       &kp LC(C)     &kp LC(X)        &kp LC(Z)  &trans
  &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans               &trans   &trans  &trans                  &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
  &trans      &kp LC(Y)       &kp LC(X)       &kp LC(C)        &kp LC(V)   &kp LC(Z)                                &trans                  &trans                    &kp INSERT        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
