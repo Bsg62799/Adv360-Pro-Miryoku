@@ -160,11 +160,11 @@
 
         layer_macros {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
+ &trans  &trans           &trans           &trans             &trans          &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans           &trans           &trans             &trans          &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans  &kp PRINTSCREEN  &macro_powerrun       &macro_copyq  &macro_listary            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
+ &trans  &trans    &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(BACKSLASH)       &kp LC(T)                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &trans           &trans           &trans             &trans                            &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
             >;
         };
 
