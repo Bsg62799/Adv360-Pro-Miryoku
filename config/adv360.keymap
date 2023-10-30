@@ -130,11 +130,11 @@
 
         layer_Num_Layer {
             bindings = <
- &trans           &trans        &trans        &trans        &trans         &trans            &trans                                                                          &trans            &trans        &trans        &trans        &trans             &trans  &trans
- &trans         &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp SLASH            &trans                                                                          &trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET  &trans
- &trans        &kp MINUS  &kp NUMBER_4        &kp N5        &kp N6      &kp EQUAL            &trans  &trans  &trans                      &trans               &trans         &trans         &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp SEMICOLON  &trans
- &trans  &kp KP_MULTIPLY        &kp N1        &kp N2        &kp N3  &kp BACKSLASH                            &trans                      &trans                                         &kp BACKSLASH        &kp N1  &kp NUMBER_2  &kp NUMBER_3          &kp GRAVE  &trans
- &trans           &trans        &trans        &trans        &trans                           &trans  &trans  &trans                  &kp PERIOD  &mt RETURN NUMBER_0  &kp BACKSPACE                          &trans        &trans        &trans             &trans  &trans
+ &trans           &trans        &trans        &trans        &trans         &trans            &trans                                                                          &trans     &trans        &trans        &trans        &trans         &trans  &trans
+ &trans         &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp SLASH            &trans                                                                          &trans   &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp SLASH  &trans
+ &trans        &kp MINUS  &kp NUMBER_4        &kp N5        &kp N6      &kp EQUAL            &trans  &trans  &trans                      &trans               &trans         &trans  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp EQUAL  &trans
+ &trans  &kp KP_MULTIPLY        &kp N1        &kp N2        &kp N3  &kp BACKSLASH                            &trans                      &trans                                       &kp STAR        &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
+ &trans           &trans        &trans        &trans        &trans                           &trans  &trans  &trans                  &kp PERIOD  &mt RETURN NUMBER_0  &kp BACKSPACE                   &trans        &trans        &trans         &trans  &trans
             >;
         };
 
