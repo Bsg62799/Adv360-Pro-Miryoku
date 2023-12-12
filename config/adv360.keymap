@@ -201,11 +201,11 @@
 
         layer_UK_Num_Layer {
             bindings = <
- &trans           &trans        &trans        &trans        &trans         &trans            &trans                                                                          &trans     &trans        &trans        &trans        &trans            &trans  &trans
- &trans         &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp SLASH            &trans                                                                          &trans   &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp ASTERISK  &trans
- &trans        &kp MINUS  &kp NUMBER_4        &kp N5        &kp N6      &kp EQUAL            &trans  &trans  &trans                      &trans               &trans         &trans  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp SLASH  &trans
- &trans  &kp KP_MULTIPLY        &kp N1        &kp N2        &kp N3  &kp BACKSLASH                            &trans                      &trans                                      &kp EQUAL        &kp N1  &kp NUMBER_2  &kp NUMBER_3  &macro_backslash  &trans
- &trans           &trans        &trans        &trans        &trans                           &trans  &trans  &trans                  &kp PERIOD  &mt RETURN NUMBER_0  &kp BACKSPACE                   &trans        &trans        &trans            &trans  &trans
+ &trans           &trans        &trans        &trans        &trans         &trans            &trans                                                                          &trans     &trans        &trans        &trans        &trans                &trans  &trans
+ &trans         &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp SLASH            &trans                                                                          &trans   &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp ASTERISK  &trans
+ &trans        &kp MINUS  &kp NUMBER_4        &kp N5        &kp N6      &kp EQUAL            &trans  &trans  &trans                      &trans               &trans         &trans  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6             &kp SLASH  &trans
+ &trans  &kp KP_MULTIPLY        &kp N1        &kp N2        &kp N3  &kp BACKSLASH                            &trans                      &trans                                      &kp EQUAL        &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH  &trans
+ &trans           &trans        &trans        &trans        &trans                           &trans  &trans  &trans                  &kp PERIOD  &mt RETURN NUMBER_0  &kp BACKSPACE                   &trans        &trans        &trans                &trans  &trans
             >;
         };
 
@@ -231,11 +231,11 @@
 
         layer_UK_macros {
             bindings = <
- &trans      &macro_kvm1      &macro_kvm2        &macro_kvm3     &macro_kvm4  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
- &trans           &trans           &trans             &trans          &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
- &trans  &kp PRINTSCREEN  &macro_powerrun       &macro_copyq  &macro_listary  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
- &trans    &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(BACKSLASH)       &kp LC(T)  &trans                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
- &trans           &trans           &trans             &trans          &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
+ &trans      &macro_kvm1      &macro_kvm2               &macro_kvm3     &macro_kvm4  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans           &trans           &trans                    &trans          &trans  &trans            &trans                                                  &trans  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans  &kp PRINTSCREEN  &macro_powerrun              &macro_copyq  &macro_listary  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
+ &trans    &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(NON_US_BACKSLASH)       &kp LC(T)  &trans                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
+ &trans           &trans           &trans                    &trans          &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
             >;
         };
 
