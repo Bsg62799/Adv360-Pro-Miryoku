@@ -27,7 +27,7 @@
   ],
   "layers": [
     [
-       "&kp EQUAL", "&macro_kvm1", "&macro_kvm2", "&macro_kvm3", "&macro_kvm4", "&kp N5",                 "&tog 1",                                                                                              "&mo 3", "&kp N6",       "&kp N7",      "&kp N8",     "&kp N9",           "&kp N0",     "&kp A",
+       "&kp EQUAL", "&macro_kvm1", "&macro_kvm2", "&macro_kvm3", "&macro_kvm4", "&kp N5",                 "&tog 1",                                                                                              "&mo 3", "&kp N6",       "&kp N7",      "&kp N8",     "&kp N9",           "&kp N0",     "&kp B",
          "&kp TAB",       "&kp Q",       "&kp W",       "&kp F",       "&kp P",  "&kp B",                 "&to 14",                                                                                              "&none",  "&kp J",        "&kp L",       "&kp U",      "&kp Y", "&kp SINGLE_QUOTE",  "&kp BSLH",
          "&kp ESC",  "&mt LWIN A",  "&mt LALT R", "&mt LCTRL S", "&mt LSHFT T",  "&kp G",                 "&to 13",  "&kp LCTRL",   "&kp LALT",                          "&kp LGUI",     "&kp RCTRL",  "&macro_powerrun",  "&kp M", "&mt RSHIFT N", "&mt RCTRL E", "&mt RALT I",       "&mt RWIN O",   "&kp SQT",
        "&kp LSHFT",     "&lt 7 Z",       "&kp X",       "&kp C",       "&kp D",  "&kp V",                                           "&kp HOME",                         "&kp PG_UP",                                       "&kp K",        "&kp H",   "&kp COMMA", "&kp PERIOD",      "&lt 7 SLASH", "&kp RSHFT",
