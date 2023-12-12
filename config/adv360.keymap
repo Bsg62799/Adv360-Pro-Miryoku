@@ -181,11 +181,11 @@
 
         layer_UK {
             bindings = <
- &kp EQUAL  &macro_kvm1  &macro_kvm2  &macro_kvm3  &macro_kvm4  &kp N5                  &tog 1                                                                                  &mo 3  &kp N6        &kp N7       &kp N8      &kp N9            &kp N0      &kp A
-   &kp TAB        &kp Q        &kp W        &kp F        &kp P   &kp B                  &to 14                                                                                  &none   &kp J         &kp L        &kp U       &kp Y  &kp SINGLE_QUOTE   &kp BSLH
-   &kp ESC   &mt LWIN A   &mt LALT R  &mt LCTRL S  &mt LSHFT T   &kp G                  &to 13   &kp LCTRL    &kp LALT                       &kp LGUI      &kp RCTRL  &macro_powerrun   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I        &mt RWIN O    &kp SQT
- &kp LSHFT      &lt 7 Z        &kp X        &kp C        &kp D   &kp V                                        &kp HOME                      &kp PG_UP                                   &kp K         &kp H    &kp COMMA  &kp PERIOD       &lt 7 SLASH  &kp RSHFT
-     &to 0    &kp GRAVE     &kp CAPS     &kp LEFT    &kp RIGHT                    &lt 16 SPACE  &lt 17 TAB  &lt 18 ESC                  &lt 19 DELETE  &lt 15 RETURN  &lt 5 BACKSPACE                &kp UP     &kp DOWN    &kp LBKT          &kp RBKT     &tog 4
+ &kp EQUAL  &macro_kvm1  &macro_kvm2  &macro_kvm3  &macro_kvm4  &kp N5                  &tog 1                                                                                   &mo 3  &kp N6        &kp N7       &kp N8      &kp N9            &kp N0      &kp A
+   &kp TAB        &kp Q        &kp W        &kp F        &kp P   &kp B                  &to 14                                                                                   &none   &kp J         &kp L        &kp U       &kp Y  &kp SINGLE_QUOTE   &kp BSLH
+   &kp ESC   &mt LWIN A   &mt LALT R  &mt LCTRL S  &mt LSHFT T   &kp G                  &to 13   &kp LCTRL    &kp LALT                       &kp LGUI      &kp RCTRL   &macro_powerrun   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I        &mt RWIN O    &kp SQT
+ &kp LSHFT      &lt 7 Z        &kp X        &kp C        &kp D   &kp V                                        &kp HOME                      &kp PG_UP                                    &kp K         &kp H    &kp COMMA  &kp PERIOD       &lt 7 SLASH  &kp RSHFT
+     &to 0    &kp GRAVE     &kp CAPS     &kp LEFT    &kp RIGHT                    &lt 16 SPACE  &lt 17 TAB  &lt 18 ESC                  &lt 19 DELETE  &lt 15 RETURN  &lt 20 BACKSPACE                &kp UP     &kp DOWN    &kp LBKT          &kp RBKT     &tog 4
             >;
         };
 
@@ -236,6 +236,16 @@
  &trans  &kp PRINTSCREEN  &macro_powerrun       &macro_copyq  &macro_listary  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
  &trans    &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(BACKSLASH)       &kp LC(T)  &trans                            &trans                  &trans                  &trans          &trans        &trans           &trans           &trans  &trans
  &trans           &trans           &trans             &trans          &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans           &trans           &trans  &trans
+            >;
+        };
+
+        layer_UK_nav {
+            bindings = <
+ &trans    &macro_kvm1     &macro_kvm2     &macro_kvm3      &macro_kvm4      &trans               &trans                                                   &trans        &trans          &trans          &trans        &trans           &trans  &trans
+ &trans      &kp PG_UP        &kp HOME    &kp UP_ARROW          &kp END  &kp INSERT               &trans                                                   &trans     &kp LC(Y)       &kp LC(V)       &kp LC(C)     &kp LC(X)        &kp LC(Z)  &trans
+ &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans               &trans   &trans  &trans                  &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+ &trans      &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)   &kp LC(Y)                                &trans                  &trans                    &kp INSERT        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
+ &trans         &trans          &trans          &trans           &trans                        &kp SPACE  &kp TAB  &trans                  &trans  &trans  &trans                        &trans          &trans        &trans           &trans  &trans
             >;
         };
 
