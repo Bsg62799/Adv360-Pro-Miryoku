@@ -151,11 +151,11 @@
 
         layer_Symbols {
             bindings = <
- &trans     &trans           &trans       &trans        &trans          &trans            &trans                                                             &trans     &trans      &trans     &trans        &trans           &trans  &trans
- &trans  &kp GRAVE    &kp AMPERSAND    &kp ASTRK  &macro_pound  &kp UNDERSCORE            &trans                                                             &trans  &kp GRAVE    &kp AMPS   &kp STAR  &macro_pound  &kp RIGHT_BRACE  &trans
- &trans  &kp COLON       &kp DOLLAR  &kp PERCENT     &kp CARET        &kp PLUS            &trans  &trans  &trans                  &trans      &trans         &trans  &kp COLON  &kp DOLLAR  &kp PRCNT     &kp CARET         &kp PLUS  &trans
- &trans  &kp TILDE  &kp EXCLAMATION       &kp AT      &kp HASH        &kp PIPE                            &trans                  &trans                             &kp TILDE    &kp EXCL     &kp AT      &kp HASH         &kp PIPE  &trans
- &trans     &trans           &trans       &trans        &trans                            &trans  &trans  &trans                  &trans  &kp RETURN  &kp BACKSPACE                 &trans     &trans        &trans           &trans  &trans
+ &trans     &trans           &trans       &trans        &trans          &trans            &trans                                                             &trans     &trans      &trans     &trans          &trans           &trans  &trans
+ &trans  &kp GRAVE    &kp AMPERSAND    &kp ASTRK  &macro_pound  &kp UNDERSCORE            &trans                                                             &trans  &kp GRAVE    &kp AMPS   &kp STAR  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+ &trans  &kp COLON       &kp DOLLAR  &kp PERCENT     &kp CARET        &kp PLUS            &trans  &trans  &trans                  &trans      &trans         &trans  &kp COLON  &kp DOLLAR  &kp PRCNT       &kp CARET         &kp PLUS  &trans
+ &trans  &kp TILDE  &kp EXCLAMATION       &kp AT      &kp HASH        &kp PIPE                            &trans                  &trans                             &kp TILDE    &kp EXCL     &kp AT        &kp HASH         &kp PIPE  &trans
+ &trans     &trans           &trans       &trans        &trans                            &trans  &trans  &trans                  &trans  &kp RETURN  &kp BACKSPACE                 &trans     &trans          &trans           &trans  &trans
             >;
         };
 
