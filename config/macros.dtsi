@@ -44,13 +44,15 @@ macro_kvm4: macro_kvm4{
 compatible = "zmk,behavior-macro";
 label = "macro_kvm4";
 #binding-cells = <0>;
-bindings = <&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N4>;
+wait-ms = <50>;
+bindings = <&macro_tap_time 50>,<&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N4>;
 };
 macro_kvm3: macro_kvm3{
 compatible = "zmk,behavior-macro";
 label = "macro_kvm3";
+wait-ms = <50>;
 #binding-cells = <0>;
-bindings = <&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N3>;
+bindings = <&macro_tap_time 50>,<&kp SCROLLLOCK>, <&kp SCROLLLOCK>, <&kp N3>;
 };
 macro_kvm2: macro_kvm2{
 compatible = "zmk,behavior-macro";
