@@ -51,6 +51,10 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 config SPI
     default y
 
+config ZMK_MACRO_DEFAULT_WAIT_MS
+    default 100
 
+config ZMK_MACRO_DEFAULT_TAP_MS
+    default 100
 
 endif # BOARD_ADV360_LEFT || BOARD_ADV360_RIGHT
