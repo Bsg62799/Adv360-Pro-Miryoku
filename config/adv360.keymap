@@ -97,6 +97,17 @@
             bindings = <&kp LS(LA(LC(P)))>;
             label = "POWERRUN";
         };
+
+        kvm_reset: kvm_reset {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 50>,
+                <&macro_tap_time 50>,
+                <&kp KP_NUMLOCK &kp KP_NUMLOCK>;
+
+            label = "KVM_RESET";
+        };
     };
 
     keymap {
@@ -104,11 +115,11 @@
 
         default_layer {
             bindings = <
-&macro_codegen1  &macro_kvm1  &macro_kvm2  &macro_kvm3  &macro_kvm4  &kp N5  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0         &kp B
-&kp TAB          &kp Q        &kp W        &kp F        &kp P        &kp B   &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH  &kp BSLH
-&kp ESC          &mt LWIN A   &mt LALT R   &mt LCTRL S  &mt LSHFT T  &kp G   &to 21        &kp SCROLLLOCK  &kp INS         &kp CAPS       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O     &kp SQT
-&kp LSHFT        &lt 7 Z      &kp X        &kp C        &kp D        &kp V                                 &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &lt 7 SLASH    &kp RSHFT
-&tog 2           &kp GRAVE    &kp CAPS     &kp LEFT     &kp RIGHT            &lt 16 SPACE  &lt 17 TAB      &lt 18 ESC      &lt 19 DELETE  &lt 15 RETURN  &lt 20 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT       &tog 2
+&macro_codegen1  &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0         &kp B
+&kp TAB          &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH  &kp BSLH
+&kp ESC          &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 21        &kp SCROLLLOCK  &kp INS         &kp CAPS       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O     &kp SQT
+&kp LSHFT        &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &lt 7 SLASH    &kp RSHFT
+&tog 2           &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 16 SPACE  &lt 17 TAB      &lt 18 ESC      &lt 19 DELETE  &lt 15 RETURN  &lt 20 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT       &tog 2
             >;
         };
 
@@ -314,11 +325,11 @@
 
         layer_Mac {
             bindings = <
-&kp EQUAL  &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kp N5  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0         &kp U
-&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B   &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH  &kp BSLH
-&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G   &to 26        &kp SCROLLLOCK  &kp INS         &kp CLCK       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O     &kp SQT
-&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                 &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &lt 7 SLASH    &kp RSHFT
-&tog 2     &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT            &lt 26 SPACE  &lt 27 TAB      &lt 28 ESC      &lt 29 DELETE  &lt 25 RETURN  &lt 22 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT       &tog 2
+&kp EQUAL  &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0         &kp U
+&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH  &kp BSLH
+&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 26        &kp SCROLLLOCK  &kp INS         &kp CLCK       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O     &kp SQT
+&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &lt 7 SLASH    &kp RSHFT
+&tog 2     &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 26 SPACE  &lt 27 TAB      &lt 28 ESC      &lt 29 DELETE  &lt 25 RETURN  &lt 22 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT       &tog 2
             >;
         };
 
