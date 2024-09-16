@@ -1,4 +1,13 @@
-# Kinesis Advantage 360 Pro ZMK Config
+# Kinesis Advantage 360 Pro Miryoku stlye Config(US keyboard layout, UK keyboard layout and a Mac UK keyboard)
+
+https://nickcoutsos.github.io/keymap-editor/
+
+https://github.com/manna-harbour/miryoku This is an amazing layout they once mastered we'll make you more productive and comfortable because the reduced finger movement on the kinesis keyboard
+
+I've made some further modifications to this layout to help me with programming.
+
+Also have included the default layout for the keyboard. As well as US keyboard layout, UK keyboard layout and a Mac UK keyboard layout based on miryoku.
+
 
 ## Modifying the keymap
 
