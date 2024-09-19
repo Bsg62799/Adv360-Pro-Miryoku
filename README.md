@@ -8,6 +8,10 @@ I've made some further modifications to this layout to help me with programming.
 
 Also I have included the default layout for the keyboard. As well as US keyboard layout, UK keyboard layout and a Mac UK keyboard layout based on miryoku.
 
+https://github.com/joelspadin/zmk-locales
+https://kbdlayout.info/kbdus/virtualkeys
+https://kbdlayout.info/kbduk/virtualkeys
+
 
 ## Modifying the keymap
 
