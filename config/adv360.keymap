@@ -289,11 +289,11 @@
 
         layer_UK_Symbols {
             bindings = <
-&trans  &trans     &trans           &trans       &trans        &trans          &trans                                          &trans         &trans     &trans      &trans             &trans         &trans                    &trans
-&trans  &kp GRAVE  &kp AMPERSAND    &kp ASTRK    &macro_pound  &kp UNDERSCORE  &trans                                          &trans         &kp GRAVE  &kp AMPS    &kp STAR           &kp HASH       &kp UNDERSCORE            &trans
-&trans  &kp COLON  &kp DOLLAR       &kp PERCENT  &kp CARET     &kp PLUS        &trans  &trans  &trans      &trans  &trans      &trans         &kp TILDE  &kp DOLLAR  &kp PRCNT          &kp CARET      &kp PLUS                  &trans
-&trans  &kp TILDE  &kp EXCLAMATION  &kp AT       &kp HASH      &kp PIPE                        &trans      &trans                             &kp PIPE   &kp EXCL    &kp DOUBLE_QUOTES  &kp BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans
-&trans  &trans     &trans           &trans       &trans                        &trans  &trans  &trans      &trans  &kp RETURN  &kp BACKSPACE             &trans      &trans             &trans         &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans         &trans     &trans      &trans             &trans         &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans         &kp GRAVE  &kp AMPS    &kp STAR           &kp HASH       &kp UNDERSCORE            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans      &trans         &kp TILDE  &kp DOLLAR  &kp PRCNT          &kp CARET      &kp PLUS                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                             &kp PIPE   &kp EXCL    &kp DOUBLE_QUOTES  &kp BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp PIPE2
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp RETURN  &kp BACKSPACE             &trans      &trans             &trans         &trans                    &trans
             >;
         };
 
