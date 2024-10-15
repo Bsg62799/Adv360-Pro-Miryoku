@@ -119,11 +119,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0                &kp B
-&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH         &kp BSLH
-&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 21        &kp SCROLLLOCK  &kp INS         &kp CAPS       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O            &kp SQT
-&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
-&to 0      &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 16 SPACE  &lt 17 TAB      &lt 18 ESC      &lt 19 DELETE  &lt 15 RETURN  &lt 20 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT              &to 5
+&kp ESC    &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                         &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0                &kp B
+&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                          &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH         &kp NON_US_BACKSLASH
+&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 21        &kp SCROLLLOCK  &kp INS            &kp HOME       &kp END        &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O            &kp SQT
+&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp PAGE_DOWN      &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
+&to 0      &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 16 SPACE  &lt 17 TAB      &lt 18 ESC         &lt 19 DELETE  &lt 15 RETURN  &lt 20 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT              &to 0
             >;
         };
 
@@ -319,21 +319,21 @@
 
         layer_UK_nav {
             bindings = <
-&trans  &macro_kvm1    &macro_kvm2     &macro_kvm3     &macro_kvm4      &trans      &trans                                          &trans  &trans        &trans          &trans          &trans        &trans           &trans
-&trans  &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT  &trans                                          &trans  &kp LC(Y)     &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp LC(Z)        &trans
-&trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans     &trans   &trans      &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)                       &trans      &trans                  &kp INSERT    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-&trans  &trans         &trans          &trans          &trans                       &kp SPACE  &kp TAB  &trans      &trans  &trans  &trans                &trans          &trans          &trans        &trans           &trans
+&trans  &trans         &trans          &trans          &trans           &trans      &trans                                          &trans  &trans  &trans           &trans     &trans         &trans         &trans
+&trans  &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT  &trans                                          &trans  &trans  &trans           &trans     &trans         &trans         &trans
+&trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans     &trans   &trans      &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
+&trans  &kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)                       &trans      &trans                  &trans  &trans           &trans     &trans         &trans         &trans
+&trans  &trans         &trans          &trans          &trans                       &kp SPACE  &kp TAB  &trans      &trans  &trans  &trans          &trans           &trans     &trans         &trans         &trans
             >;
         };
 
         layer_Mac {
             bindings = <
-&kp EQUAL  &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                      &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0                &kp U
-&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                       &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH         &kp BSLH
-&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 26        &kp SCROLLLOCK  &kp INS         &kp CLCK       &kp RCTRL      &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O            &kp SQT
-&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp HOME        &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
-&tog 2     &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 26 SPACE  &lt 27 TAB      &lt 28 ESC      &lt 29 DELETE  &lt 25 RETURN  &lt 22 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT              &tog 2
+&kp EQUAL  &kvm_1      &kvm_2      &kvm_3       &kvm_4       &kvm_reset  &tog 1                                                                         &mo 3             &kp N6  &kp N7        &kp N8       &kp N9      &kp N0                &kp U
+&kp TAB    &kp Q       &kp W       &kp F        &kp P        &kp B       &to 0                                                                          &to 5             &kp J   &kp L         &kp U        &kp Y       &kp BACKSLASH         &kp BSLH
+&kp ESC    &mt LWIN A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G       &to 26        &kp SCROLLLOCK  &kp INS            &kp HOME       &kp END        &to 4             &kp M   &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RWIN O            &kp SQT
+&kp LSHFT  &lt 7 Z     &kp X       &kp C        &kp D        &kp V                                     &kp PAGE_DOWN      &kp PG_UP                                       &kp K   &kp H         &kp COMMA    &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
+&tog 0     &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                &lt 26 SPACE  &lt 27 TAB      &lt 28 ESC         &lt 29 DELETE  &lt 25 RETURN  &lt 22 BACKSPACE          &kp UP        &kp DOWN     &kp LBKT    &kp RBKT              &tog 0
             >;
         };
 
@@ -409,11 +409,11 @@
 
         layer_Mac_macros {
             bindings = <
-&trans  &trans           &trans           &trans             &trans         &trans  &trans                                      &trans  &trans  &trans          &trans        &trans           &trans           &trans
-&trans  &trans           &trans           &trans             &trans         &trans  &trans                                      &trans  &trans  &trans          &trans        &trans           &trans           &trans
-&trans  &kp PRINTSCREEN  &macro_powerrun  &macro_copyq       &kp LG(SPACE)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &macro_listary  &macro_copyq  &macro_powerrun  &kp PRINTSCREEN  &trans
-&trans  &kp LA(GRAVE)    &kp LC(COMMA)    &kp LA(BACKSLASH)  &kp LC(T)      &trans                  &trans      &trans                  &trans  &trans          &trans        &trans           &trans           &trans
-&trans  &trans           &trans           &trans             &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans        &trans           &trans           &trans
+&trans  &trans           &trans           &trans             &trans         &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans             &trans         &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &macro_powerrun  &macro_copyq       &kp LG(SPACE)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(GRAVE)    &kp LC(COMMA)    &kp LA(BACKSLASH)  &kp LC(T)      &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans             &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
