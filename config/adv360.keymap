@@ -416,7 +416,7 @@
 &trans  &trans           &trans         &trans             &trans                     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans           &trans         &trans             &trans                     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp PRINTSCREEN  &kp LG(SPACE)  &kp LG(LA(C))      &kp LA(LS(LC(LG(SPACE))))  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(BACKSLASH)  &kp LC(T)                  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(GRAVE)    &kp LC(COMMA)  &kp LA(BACKSLASH)  &kp LG(T)                  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans           &trans         &trans             &trans                             &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
