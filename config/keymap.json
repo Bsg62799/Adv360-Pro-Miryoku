@@ -8,21 +8,18 @@
     "fn",
     "mod",
     "qwerty",
-    "US",
     "Nav Layer",
     "Mouse Layer",
-    "Button Layer",
-    "Coding Layer",
     "Gaming",
-    "Layer #18"
+    "Sym"
   ],
   "layers": [
     [
-       "&macro_codegen1", "&macro_kvm1", "&macro_kvm2", "&macro_kvm3", "&macro_kvm4", "&kp N5",                "&tog 1",                                                                                              "&mo 3", "&kp N6",       "&kp N7",      "&kp N8",     "&kp N9",               "&kp N0",     "&kp B",
-               "&kp TAB",       "&kp Q",       "&kp W",       "&kp F",       "&kp P",  "&kp B",           "&bootloader",                                                                                              "&to 5",  "&kp J",        "&kp L",       "&kp U",      "&kp Y",            "&kp SLASH",  "&kp BSLH",
-               "&kp ESC",  "&mt LWIN A",  "&mt LALT R", "&mt LCTRL S", "&mt LSHFT T",  "&kp G",                "&to 21",      "&tog 17",    "&kp INS",                         "&kp CAPS",        "&kp RCTRL",        "&to 4",  "&kp M", "&mt RSHIFT N", "&mt RCTRL E", "&mt RALT I",           "&mt RWIN O",   "&kp SQT",
-             "&kp LSHFT",     "&lt 7 Z",       "&kp X",       "&kp C",       "&kp D",  "&kp V",                                            "&kp HOME",                        "&kp PG_UP",                                      "&kp K",        "&kp H",   "&kp COMMA", "&kp PERIOD", "&kp NON_US_BACKSLASH", "&kp RSHFT",
-                "&tog 2",   "&kp GRAVE",    "&kp CAPS",    "&kp LEFT",   "&kp RIGHT",                      "&lt 16 ESC", "&lt 17 SPACE", "&lt 18 TAB",                     "&lt 19 ENTER", "&lt 15 BACKSPACE", "&lt 2 DELETE",                 "&kp UP",    "&kp DOWN",   "&kp LBKT",             "&kp RBKT",    "&tog 2"
+       "&macro_codegen1", "&macro_kvm1", "&macro_kvm2", "&macro_kvm3", "&macro_kvm4", "&kp N5",                "&tog 1",                                                                                            "&mo 3", "&kp N6",       "&kp N7",      "&kp N8",     "&kp N9",               "&kp N0",     "&kp B",
+               "&kp TAB",       "&kp Q",       "&kp W",       "&kp F",       "&kp P",  "&kp B",           "&bootloader",                                                                                            "&to 5",  "&kp J",        "&kp L",       "&kp U",      "&kp Y",            "&kp SLASH",  "&kp BSLH",
+               "&kp ESC",  "&mt LWIN A",  "&mt LALT R", "&mt LCTRL S", "&mt LSHFT T",  "&kp G",                "&to 21",      "&tog 17",    "&kp INS",                        "&kp CAPS",       "&kp RCTRL",        "&to 4",  "&kp M", "&mt RSHIFT N", "&mt RCTRL E", "&mt RALT I",           "&mt RWIN O",   "&kp SQT",
+             "&kp LSHFT",     "&lt 7 Z",       "&kp X",       "&kp C",       "&kp D",  "&kp V",                                            "&kp HOME",                       "&kp PG_UP",                                     "&kp K",        "&kp H",   "&kp COMMA", "&kp PERIOD", "&kp NON_US_BACKSLASH", "&kp RSHFT",
+                "&tog 2",   "&kp GRAVE",    "&kp CAPS",    "&kp LEFT",   "&kp RIGHT",                      "&lt 16 ESC", "&lt 17 SPACE", "&lt 18 TAB",                     "&lt 8 ENTER", "&lt 1 BACKSPACE", "&lt 2 DELETE",                 "&kp UP",    "&kp DOWN",   "&kp LBKT",             "&kp RBKT",    "&tog 2"
     ], [
        "&trans",           "&trans",    "&trans",          "&trans",    "&trans",            "&trans",                "&trans",                                                                   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&kp LEFT_BRACKET", "&kp KP_N7",       "&kp KP_N8", "&kp KP_N9", "&kp RIGHT_BRACKET",           "&bootloader",                                                                   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
@@ -48,12 +45,6 @@
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",  "&kp B",                                    "&kp HOME",                     "&kp PG_UP",                            "&kp N",  "&kp M", "&kp COMMA",  "&kp DOT", "&kp FSLH", "&kp RSHFT",
           "&tog 2", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&kp BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp SPACE",           "&kp UP",  "&kp DOWN", "&kp LBKT", "&kp RBKT",     "&mo 2"
     ], [
-       "&kp EQUAL", "&macro_kvm1", "&macro_kvm2", "&macro_kvm3", "&macro_kvm4", "&kp N5",                 "&tog 1",                                                                                            "&mo 3", "&kp N6",       "&kp N7",      "&kp N8",     "&kp N9",           "&kp N0",     "&kp U",
-         "&kp TAB",       "&kp Q",       "&kp W",       "&kp F",       "&kp P",  "&kp B",                  "&to 0",                                                                                           "&trans",  "&kp J",        "&kp L",       "&kp U",      "&kp Y", "&kp SINGLE_QUOTE",  "&kp BSLH",
-         "&kp ESC",  "&mt LWIN A",  "&mt LALT R", "&mt LCTRL S", "&mt LSHFT T",  "&kp G",                 "&trans",  "&kp LCTRL",   "&kp LALT",                          "&kp LGUI",    "&kp RCTRL",          "&trans",  "&kp M", "&mt RSHIFT N", "&mt RCTRL E", "&mt RALT I",       "&mt RWIN O",   "&kp SQT",
-       "&kp LSHFT",     "&lt 7 Z",       "&kp X",       "&kp C",       "&kp D",  "&kp V",                                           "&kp HOME",                         "&kp PG_UP",                                     "&kp K",        "&kp H",   "&kp COMMA", "&kp PERIOD",      "&lt 7 SLASH", "&kp RSHFT",
-          "&tog 2",   "&kp GRAVE",    "&kp CAPS",    "&kp LEFT",   "&kp RIGHT",                     "&lt 10 SPACE", "&lt 11 TAB", "&lt 12 ESC",                     "&lt 13 DELETE", "&lt 9 RETURN", "&lt 6 BACKSPACE",                 "&kp UP",    "&kp DOWN",   "&kp LBKT",         "&kp RBKT",    "&tog 2"
-    ], [
        "&trans",   "&macro_kvm1",    "&macro_kvm2",    "&macro_kvm3",     "&macro_kvm4",     "&trans",              "&trans",                                                              "&trans",       "&trans",         "&trans",         "&trans",       "&trans",          "&trans", "&trans",
        "&trans",     "&kp PG_UP",       "&kp HOME",   "&kp UP_ARROW",         "&kp END", "&kp INSERT",              "&trans",                                                              "&trans",    "&kp LC(Y)",      "&kp LC(V)",      "&kp LC(C)",    "&kp LC(X)",       "&kp LC(Z)", "&trans",
        "&trans", "&kp PAGE_DOWN", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp RIGHT_ARROW",     "&trans",              "&trans",  "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp CAPSLOCK", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW", "&trans",
@@ -66,29 +57,17 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans",           "&trans",                                                             "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans",
-       "&trans", "&kp LC(Z)", "&kp LC(X)", "&kp LC(C)", "&kp LC(V)", "&kp LC(Y)",           "&trans",                                                             "&trans", "&kp LC(Y)", "&kp LC(V)", "&kp LC(C)", "&kp LC(X)", "&kp LC(Z)", "&trans",
-       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans",
-       "&trans", "&kp LC(Z)", "&kp LC(X)", "&kp LC(C)", "&kp LC(V)", "&kp LC(Y)",                               "&trans",                     "&trans",                     "&kp LC(Y)", "&kp LC(V)", "&kp LC(C)", "&kp LC(X)", "&kp LC(Z)", "&trans",
-       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",                        "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                 "&trans",    "&trans",    "&trans",    "&trans", "&trans"
-    ], [
-       "&trans",        "&trans",            "&trans",            "&trans",                "&trans",           "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&kp AT",  "&kp SINGLE_QUOTE", "&kp DOUBLE_QUOTES",         "&kp SEMICOLON",        "&kp COLON",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",     "&kp SLASH",  "&kp LEFT_BRACKET",    "&kp LEFT_BRACE",  "&kp LEFT_PARENTHESIS",    "&kp LESS_THAN",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&kp BACKSLASH", "&kp RIGHT_BRACKET",   "&kp RIGHT_BRACE", "&kp RIGHT_PARENTHESIS", "&kp GREATER_THAN",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&trans",            "&trans",            "&trans",                "&trans",                               "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
-    ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",  "&none",  "&none",  "&none",  "&none",  "&none",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",         "&trans",          "&trans",       "&trans",               "&trans",          "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&kp LEFT_BRACE",   "&kp AMPERSAND", "&kp ASTERISK", "&kp LEFT_PARENTHESIS", "&kp RIGHT_BRACE",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",      "&kp COLON",      "&kp DOLLAR",  "&kp PERCENT",            "&kp CARET",        "&kp PLUS",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",      "&kp TILDE", "&kp EXCLAMATION",  "&kp AT_SIGN",             "&kp HASH",        "&kp PIPE",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",         "&trans",          "&trans",       "&trans",               "&trans",                              "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
