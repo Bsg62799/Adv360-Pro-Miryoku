@@ -27,7 +27,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <180>;
+        tapping-term-ms = <200>;
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &macro_codegen1  &macro_kvm1  &macro_kvm2  &macro_kvm3  &macro_kvm4  &kp N5                 &tog 1                                                                               &mo 3  &kp N6        &kp N7       &kp N8      &kp N9                &kp N0      &kp B
-         &kp TAB        &kp Q        &kp W        &kp F        &kp P   &kp B            &bootloader                                                                               &to 5   &kp J         &kp L        &kp U       &kp Y             &kp SLASH   &kp BSLH
-         &kp ESC   &mt LWIN A   &mt LALT R  &mt LCTRL S  &mt LSHFT T   &kp G                 &to 21      &tog 17    &kp INS                     &kp CAPS        &kp RCTRL         &to 4   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I            &mt RWIN O    &kp SQT
-       &kp LSHFT      &lt 7 Z        &kp X        &kp C        &kp D   &kp V                                       &kp HOME                    &kp PG_UP                                  &kp K         &kp H    &kp COMMA  &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
-          &tog 2    &kp GRAVE     &kp CAPS     &kp LEFT    &kp RIGHT                        &kp ESC  &lt 5 SPACE  &lt 6 TAB                  &lt 8 ENTER  &lt 1 BACKSPACE  &lt 2 DELETE                &kp UP     &kp DOWN    &kp LBKT              &kp RBKT     &tog 2
+ &macro_codegen1  &macro_kvm1  &macro_kvm2  &macro_kvm3  &macro_kvm4  &kp N5                 &tog 1                                                                                 &mo 3  &kp N6        &kp N7       &kp N8      &kp N9                &kp N0      &kp B
+         &kp TAB        &kp Q        &kp W        &kp F        &kp P   &kp B            &bootloader                                                                                 &to 5   &kp J         &kp L        &kp U       &kp Y             &kp SLASH   &kp BSLH
+         &kp ESC   &mt LWIN A   &mt LALT R  &mt LCTRL S  &mt LSHFT T   &kp G                  &to 4      &tog 17  &bootloader                  &bootloader        &kp RCTRL         &to 4   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I            &mt RWIN O    &kp SQT
+       &kp LSHFT      &lt 7 Z        &kp X        &kp C        &kp D   &kp V                                         &kp HOME                    &kp PG_UP                                  &kp K         &kp H    &kp COMMA  &kp PERIOD  &kp NON_US_BACKSLASH  &kp RSHFT
+          &tog 2    &kp GRAVE     &kp CAPS     &kp LEFT    &kp RIGHT                        &kp ESC  &lt 5 SPACE    &lt 6 TAB                  &lt 8 ENTER  &lt 1 BACKSPACE  &lt 2 DELETE                &kp UP     &kp DOWN    &kp LBKT              &kp RBKT     &tog 2
             >;
         };
 
