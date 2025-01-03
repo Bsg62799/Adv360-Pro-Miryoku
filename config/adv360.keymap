@@ -23,12 +23,10 @@
     #include "version.dtsi"
 
     hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
+        compatible = "zmk,behavior-tap-dance";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <750>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
+        tapping-term-ms = <300>;
         bindings = <&kp>, <&kp>;
     };
   };
