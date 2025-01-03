@@ -1,4 +1,4 @@
-#define U_TAPPING_TERM 225
+#define U_TAPPING_TERM 300
 
 #define U_MT(MOD, TAP) &u_mt MOD TAP
 #define U_LT(LAYER, TAP) &u_lt LAYER TAP
